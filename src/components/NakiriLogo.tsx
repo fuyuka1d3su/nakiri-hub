@@ -1,16 +1,21 @@
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo.png";
 
 interface NakiriLogoProps {
-    size: string
+  size: string;
 }
 
-
 function NakiriLogo(props: NakiriLogoProps) {
-    return (
-        <>
-        <img src={Logo} alt="" height={props.size} width={props.size}/>
-        </>
-    )
+  return (
+    <>
+      <img
+        src={Logo}
+        alt=""
+        height={props.size}
+        width={props.size}
+        draggable="false"
+      />
+    </>
+  );
 }
 
 export default NakiriLogo;
