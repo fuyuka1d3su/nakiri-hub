@@ -1,5 +1,6 @@
 interface ButtonProps {
-  url: string
+  url: string;
+  color: string;
 }
 
 function Button(props: ButtonProps) {
@@ -9,7 +10,7 @@ function Button(props: ButtonProps) {
         window.open(props.url);
       }}
       className="button flex-row items-center justify-center"
-      style={{ display: 'flex'}}
+      style={{ display: "flex", color: props.color }}
     >
       <p className="px-1">Open</p>
     </button>

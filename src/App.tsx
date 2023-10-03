@@ -17,11 +17,10 @@ function App() {
     </div>
 
     <div className="flex gap-10 items-center justify-center p-8">
-      <Service logo={JellyFinLogo} name={"Jellyfin"} url="http://jellyfin.nakiri.local" />
-      <Service logo={InvidiousLogo} name={"Invidious"} url="http://invidious.nakiri.local" />
-      <Service logo={ImmichLogo} name={"Immich"} url="http://immich.nakiri.local" />
-      <Service logo={CockpitLogo} name={"Cockpit"} url="http://cockpit.nakiri.local" />   
-      
+      <Service logo={JellyFinLogo} name={"Jellyfin"} url="http://jellyfin.nakiri.local" color="#7d2ce8" />
+      <Service logo={InvidiousLogo} name={"Invidious"} url="http://invidious.nakiri.local" color="#ACAAB" />
+      <Service logo={ImmichLogo} name={"Immich"} url="http://immich.nakiri.local" color="#ACAAB" />
+      <Service logo={CockpitLogo} name={"Cockpit"} url="http://cockpit.nakiri.local" color="#ACAAB" />   
     </div>
     </>
   );
